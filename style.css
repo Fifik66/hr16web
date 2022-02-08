@@ -433,17 +433,58 @@ border-radius: 60px;
 .model_selection{
     width: 302px;
     margin: 0 auto;
+   
+
+}
+.btn{ 
+    width: 100%;
+    outline: none;
     border: 1px solid #8D8D8D;
+    background-color: #282828;
     padding-top: 17px;
     padding-bottom: 18px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 32px;
     color:#BCBCBC ;
-
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    
 }
+
+.btn::after,.btn::before{
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    width: 3px;
+    height: 12px;
+    background-color: #111111;
+    border: 2px;
+   
+}
+
+.btn::after{
+    transform: rotate(45deg);
+    top: 25px;
+    right:33px;
+}
+
+.btn::before{
+    transform: rotate(-45deg);
+    top: 25px;
+    right: 40px;
+}
+
+
+.dropdown-menu{
+    display: none;
+}
+
+
 
 /* ??????? */
 
