@@ -549,10 +549,10 @@ border-radius: 60px;
     width: 372px;
     height: 580px;
     background-color: rgb(255, 255, 255);
+    padding: 5px 20px 20px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-rows: 45px auto 30px 100px 60px 62px;
-    padding: 5px 20px 20px 20px;
     font-family: 'Lato', sans-serif;;
     font-style: normal;
     
@@ -621,7 +621,7 @@ border-radius: 60px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
 
 }
@@ -632,7 +632,7 @@ border-radius: 60px;
     font-family: 'Lato', sans-serif;;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -684,7 +684,6 @@ border-radius: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 .show_link{
     display: flex;
@@ -738,8 +737,28 @@ border-radius: 60px;
     display: grid;
     grid-template-rows: auto;
     text-align: center;
-    width: 257px;
+    width: 312px;
     margin: 0 auto;
+}
+
+
+.informat{
+    font-size: 17px;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #464646;
+
+}
+
+.material,.war,.pri{
+    font-family: "Lato",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 16px;
+    color: #464646;
 }
 
 
@@ -761,6 +780,7 @@ footer{
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 40px;
     display: grid;
     grid-template-rows: 100px 230px 200px
     
@@ -770,16 +790,23 @@ footer{
 .footer_logo_block{
     display: flex;
     align-items: center;
+    
+}
+.footer_logo{
+    width: 126px;
+    height: 28px;
+
 }
 
+
 .footer_block{
-max-width: 1200px;
-width: 100%;
-display: grid;
-grid-template-columns: repeat(5, 1fr) ;
-margin: 0 auto;
-align-items: center;
-color: #FFFFFF;
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    margin: 0 auto;
+    align-items: center;
+    color: #FFFFFF;
 }
 
 
@@ -901,3 +928,354 @@ color: #FFFFFF;
 .dizine{
     margin-right: 90px;
 }
+
+
+
+
+@media screen and ( max-width:1240px) and (min-width: 760px) {
+    .navi_bord,.request_a_call{
+        font-size: 14px;
+    }
+
+    
+   
+    .product_container {
+        grid-template-columns: 300px 1fr;
+    }
+
+    .three{
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+
+    }
+
+    .card{
+        width: 100%;
+        height: 550px;
+        padding: 5px 10px 20px 10px;
+        
+
+    }
+
+    .foto_card{
+        width: 245px;
+        height: auto;
+    }
+
+    .price{
+        font-size: 18px;
+    }
+
+    .id_card {
+        font-size: 14px;
+    }
+    .dicript {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .feature {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+
+    .buy_in_click,.order{
+        font-size: 16px;
+
+    }
+
+
+    .star, .coment_icon {
+        width: 31.5px;
+        height: 31.5px;
+    }
+
+    .one{
+        grid-template-rows: 80px auto 75px;
+        height: 520px;
+    }
+
+    .two{
+        width: 85%;
+    }
+
+    .protection{
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 26px 0 26px 26px;  
+    }
+    .protection::after, .protection::before{
+        width: 3px;
+        height: 12px;
+
+    }
+    .protection::after{
+        top: 38px;
+        right: 18px;
+
+    }
+
+    .protection::before{
+        top: 33px;
+        right: 25px;
+    }
+    .model_selection{
+        width: 85%;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .Reset,.Apply{
+        font-size:15px ;
+
+    }
+    .year{
+        width: 48px;
+        height: 38px;
+    }
+    
+    footer{
+        height: 575px;
+    }
+
+
+    .informat,.material, .war, .pri {
+    font-size: 15px;
+
+}
+
+    .show_more{
+        width: 100%;
+    }
+
+
+    .phone_footer, .working_hours, .adress, .a_phone {
+        font-size: 16px; 
+        line-height: 30px
+    }
+
+    .footer_menu, .footer_share{
+        width: 210px;
+    }
+    .footer_adress {
+        width: 200px;
+    }
+
+    .footer_container{
+        padding: 0 20px;
+        grid-template-rows:100px 230px 150px;
+    }
+    .footer_delivery{
+        width: 248px;
+    }
+
+}
+
+    @media screen and ( max-width:1039px) and (min-width: 820px){
+
+        .navi_bord,.request_a_call{
+            font-size: 14px;
+        }
+    
+        .container,.nav{
+            padding: 0 15px;
+        }
+
+        .cooperation,.active_lang .border
+        .off_lang{
+            font-size: 11px;
+        }
+
+        .logo{
+            width: 150px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .menu_left{
+            grid-template-columns: 100px 100px 150px 100px;
+        }
+        .search{
+            width: 450px;
+            height: 40px;
+        }
+        .button_search_input{
+            top: 5px;
+            width: 30px;
+            height: 30px;
+
+        }
+        .cru_home {
+            width: 13px !important;
+            height: 16px !important;
+        }
+
+        .breadcrumbs a{
+            font-size: 12px;
+        }
+        .name_categories {
+            font-size: 20px;
+        }
+        .one{
+            grid-template-rows: 80px auto 75px;
+            height: 520px;
+        }
+    
+        .two{
+            width: 85%;
+        }
+    
+        .protection{
+            width: 100%;
+            font-size: 20px;
+            line-height: 30px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 26px 0 26px 26px;  
+        }
+        .protection::after, .protection::before{
+            width: 3px;
+            height: 12px;
+    
+        }
+        .protection::after{
+            top: 38px;
+            right: 18px;
+    
+        }
+    
+        .protection::before{
+            top: 33px;
+            right: 25px;
+        }
+        .model_selection{
+            width: 85%;
+        }
+        .btn {
+            font-size: 15px;
+        }
+        .Reset,.Apply{
+            font-size:15px ;
+    
+        }
+
+        .buy_in_click, .order {
+            font-size: 12px;
+        }
+
+        .inform{
+            width: 290px;
+        }
+
+        .navigation {
+            width: 100%;
+        }
+        footer{
+            display: none;
+        }
+
+        .footer_container {
+            grid-template-rows: 100px 230px 200px 80px;
+        }
+    
+    }
+
+
+    @media screen and ( max-width:870px) and (min-width: 760px){
+        
+        .menu_0{
+            margin-left:0;
+        }
+        .search {
+            width: 350px;
+            height: 35px;
+        }
+        .menu_two_right{
+            justify-content: flex-start;
+        }
+
+        .menu_left {
+            grid-template-columns: 75px 75px 145px 75px;
+        }
+
+        .request_a_call{
+            padding: 0;
+        }
+
+        .navi_bord{
+            padding-right: 10px;
+        }
+        
+        .three{
+            grid-template-columns:auto
+        }
+        .card{
+            width: 75%;
+        }
+        .two {
+            width: 100%;
+        }
+
+        .year {
+            width: 40px;
+            height: 35px;
+        }
+
+        footer{
+            height: 775px;
+        }
+
+        .block_media{
+            grid-row-start: 4;
+        }
+
+
+        .footer_menu, .footer_share{
+            justify-content: flex-start;
+        }
+
+
+        .footer_block{
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .container{
+            padding: 0 30px;
+        }
+
+        .advantages_inversiya{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .buy_in_click, .order {
+            font-size: 12px;
+        }
+
+        .navigation{
+            width: 100%;
+        }
+
+        .footer_container {
+            grid-template-rows: 100px 230px 230px 80px;
+        }
+
+        @media screen and ( max-width:870px) and (min-width: 760px){
+            .card {
+                width: 90%;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
