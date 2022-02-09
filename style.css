@@ -1185,7 +1185,13 @@ footer{
 
 
     @media screen and ( max-width:870px) and (min-width: 760px){
-        
+        .button_search_input{
+            width: 30px;
+            height: 30px;
+        }
+
+
+
         .menu_0{
             margin-left:0;
         }
@@ -1269,6 +1275,227 @@ footer{
             }
         }
     }
+    @media screen and ( max-width:759px) and (min-width: 319px){
+
+        .logo{
+            width: 117px;
+            height: 28px;
+        }
+
+        .mobile_nav{
+            display: block;
+            display: grid;
+            grid-template-rows: 85px 54px;
+            
+        }
+
+        .header{
+            display: none;
+
+        }
+
+        .mobile_menu_header{
+            padding: 0 30px;
+            background-color: #000000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .mobile_menu_green{
+            display: flex;
+            padding: 0 30px;
+            background-color: #00D093;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .mobile_search{
+            display: none;
+        }
+
+        .mobile_search_button{
+            outline: none;
+            border: none;
+            background-image: url("image/sq_mobile.png");
+            font-size: 50px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 45px;
+            height: 54px;
+            background-color: #00D093;
+
+        }
+
+        .block_gallery{
+            display: none;
+        }
+
+        .name_categories{
+            font-size: 23px;
+            margin-top: 0;
+        }
+
+        .one{
+            height: 81px;
+        }
+
+        .one_active{
+            height: 560px;
+        }
+
+        .filter_head_active{
+            display: block;
+        }
+
+        .select_active{
+            display: grid;
+        }
+
+        .filter_butt_active{
+            display: grid;
+        }
+
+        .select,.filter_butt{
+            display: none;
+        }
+
+        .product_container{
+            display: block;
+        }
+
+        .two{
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        .three{
+            grid-template-columns:300px
+        }
+
+        .card{
+            width: auto;
+            grid-template-rows: 45px auto 30px 80px 60px 62px;
+        }
+        
+        .foto_card{
+            width: 270px;
+            height: auto;
+        }
+
+        .price{
+            font-size: 15px;
+            line-height: 30px;
+        }
+
+        .dicript{
+            width: 300px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .id_card{
+            font-size:13px
+        }
+
+        .feature span{
+            font-size: 13px;
+        }
+
+        .buy_in_click,.order{
+            font-size: 16px;
+        }
+
+        .show_more{
+            width: auto;
+        }
+
+        .advantages_inversiya {
+            display: none;
+        }
+
+
+         .footer_logo_block{
+            display: none;
+        }
+
+        /* .footer_container{
+            grid-template-rows: repeat(4, 1fr);
+        } */
+
+         .footer_block{
+            grid-template-columns: repeat(2, 1fr);         };
+        } 
+
+
+        .block_media{
+            grid-row-start: 4;
+        }
+        .footer_menu{
+            grid-column-start: 1;
+            grid-row-start: 1;
+            justify-content: flex-start;
+        }
+        .footer_share{
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+
+        .a_phone_mob{
+            text-decoration: none;
+            color: #f1f1f1;
+            font-size: 16px;
+        }
+
+        .footer_adress{
+            display: none;
+        }
+
+        .footer_adress{
+            grid-column-start: 1;
+            grid-row-start: 3;
+        }
+
+        .footer_menu, .footer_share{
+            height: 170px;
+            justify-content: flex-start;
+        }
+
+        .footer_block{
+            gap: 50px 0px;
+        }
+        .footer_container{
+            grid-template-rows: 100px 230px 200px 200px;
+            margin-top: 70px;
+        }
+
+        .footer_delivery,.footer_payment{
+            height: 170px;
+        }
+
+        footer{
+            width: auto;
+        }
+
+        
+
+        /* .swiper {
+            width: %;
+            height: 300px;
+          }
+      
+         .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+         } */
+
+
+
+
+    }
+
+
 
 
 
